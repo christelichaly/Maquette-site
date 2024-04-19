@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1024px;
+    background-image: url(../assets/img/bg.png);
+    margin: 0 25%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+header, main, footer{
+    background-color: #fff;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:focus{
+    background-color: #662f32;
+    color: #fff;
+    padding: 60px;
+    /* width: 60px;
+    height: 60px; */
+}
+h1{
+    font-size: 7.5em;
+    text-align: center;
+    align-content:center;
+    height: 250px;
+}
+h1 span{
+    color: #662f32;
+}
+
+.featured_pages{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 15px 35px ;
+    color: #fff;
+}
+.last_work, .main_products, .main_service{
+    background-color: #6c655d;
+    width: 300px;
+    height: 428px;
+}
+/* .products{
+    background-color: #6c655d;
+    width: 340px;
+}
+.service{
+    background-color: #6c655d;
+    width: 340px;
+} */
+.figcaption{
+    background-color: #662f32;
+    text-align: center;
+    padding: 10px;
+}
+.featured_pic{
+    width: 300px;
+    padding-bottom: 20px;
+}
+.button_plus{
+   padding: 20px 0 0  236px;
+}
+
+.other_informations{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 15px 35px ;
+}
+h4{
+    color: #7c7b7a;
+    padding-bottom: 17px;
+}
+.testimonials p{
+    width: 290px;
+    padding-top: 20px;
+}
+.premium_services p{
+    width: 290px;
+    padding-bottom: 20px;
+}
+.premium_services{
+    padding-left: 20px;
+}
+.about_us{
+    padding-left: 17px;
+}
+.about_us p{
+    width: 290px;
+    padding-bottom: 20px;
+}
+p{
+    font-weight: 100;
+}
+.arrow{
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+}
+.p_arrow{
+    padding-left: 5px;
+}
+.p_color{
+    color: #662f32;
+    
+}
+.read_more{
+    background-color: #564d48;
+    color: #fff;
+    padding: 10px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 1px solid #2c2c2c;
+    justify-content:space-between;
+    padding: 35px 15px 18px 15px;
+}
